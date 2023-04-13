@@ -79,17 +79,16 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  /* background: url(img/logo/preloader.mp4); */
   background: black;
 }
 
 #preloader:before {
-  content: url(img/logo/preloader.mp4);
+  content: '';
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  /* border: 6px solid #f2f2f2;
-  border-top: 6px solid #18d26e; */
+  border: 6px solid #f2f2f2;
+  border-top: 6px solid #18d26e;
   border-radius: 50%;
   width: 60px;
   height: 60px;
